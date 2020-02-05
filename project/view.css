@@ -1,0 +1,106 @@
+body{
+    margin:800px;
+    padding: 0;
+    background-image: url(02-.jpg);
+    background-size:1352px 779px;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-color: gray;
+}
+.loginbox{
+    width: 1182 px;
+    height: 529px;
+    background-color: white;
+    color:black;
+    top: 37%;
+    left: 11%;
+    position: absolute;
+    transform: translate(-50%,-%50);
+    box-sizing:border-box;
+    padding: 20px 20px;
+}
+
+table{
+     border-collapse:collapse;
+     width: 100%;
+}
+
+th {
+   list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color:orange;
+    position: sticky;
+    top: 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;;
+    border-bottom-style:groove;
+}
+td{
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.editbox{
+    width: 682px;
+    height: 99px;
+    background-color:white;
+    color:black;
+    top: 7%;
+    left: 28%;
+    position: absolute;
+    box-sizing:border-box;
+    padding: 30px 20px;
+    text-align:center;
+
+}
+.editboxx{
+    width: 682px;
+    height: 99px;
+    background-color:white;
+    color:black;
+    top: 4%;
+    left: 28%;
+    position: absolute;
+    box-sizing:border-box;
+    padding: 30px 20px;
+    text-align:center;
+
+}
+
+
+input[type=text]{
+    width:100px;
+    padding: 7px;
+    border: 1px soild #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    background-color: orange;
+    color: white;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: none;
+    
+}
+
+.button {
+  background-color:orange;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 4px;
+}
