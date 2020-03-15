@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Login form</title>
+	<link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+	     
+
+	<div class="loginbox">
+        <img src=pic.png class="pic">
+    <form >
+        <h1> Admin Login</h1>
+		        <label for="uname">user name</label>
+                <input type="text" name="username" placeholder="Username">
+                <label for="pwd">Password</label>
+                <input type="password" name="password" placeholder="Password">
+			
+        <input type="submit" name="submit" placeholder ="Login" onclick="check(this.form)">
+		</div>
+	</form>
+
+		<script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.username.value == "rupesh" && form.password.value == "123") {
+                    window.open('delete.php')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+
+
+
+</body>
+</html>
